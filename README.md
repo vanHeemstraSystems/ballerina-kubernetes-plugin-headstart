@@ -5,9 +5,9 @@ Based on "Ballerina Kubernetes Extension" at https://porter.io/github.com/baller
 
 ## 100 - How to build
 - Download and install JDK 11
-- Install Docker
+- Install Docker, see https://github.com/vanHeemstraSystems/docker-quick-start-headstart
 - Get a clone or download the source from this repository (https://github.com/ballerinax/kubernetes)
-- Run the Gradle command gradle build from within the kubernetes directory.
+- Run the Gradle command gradle build from within the kubernetes directory. See https://github.com/vanHeemstraSystems/gradle-headstart
 - Copy build/kubernetes-extension-***.jar file to <BALLERINA_HOME>/bre/lib directory.
 
 ### 100 - Enabling debug logs
