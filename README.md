@@ -28,7 +28,7 @@ You can replace values in an annotation using environment variables. The replace
 
 Note: You cannot use the ballerina/config module to replace values in the annotation. This is because the kubernetes artifacts are generated during compile time. The ballerina/config module works in the runtime.
 
-## 100 - How to execute:
+### 100 - How to execute:
 
 ```
 $> kubectl ballerina deploy hello_world_k8s.bal
